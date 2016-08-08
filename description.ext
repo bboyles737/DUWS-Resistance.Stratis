@@ -1,0 +1,32 @@
+OnLoadMission = "A procedurally generated campaign where you earn resources, execute missions and lead your forces to capture the island and win the war.";
+onLoadName = "DUWS: Resistance v0.23";
+dev = "dev";
+author = "Victor Troska, original by Kibot";
+overviewText = "A procedurally generated campaign where you earn resources, execute missions and lead your forces to capture the island and win the war.";
+overviewPicture = "rtipic.paa";
+LoadScreen = "rtipic.paa";
+
+class Header
+{
+ gameType = COOP;            
+ minPlayers = 1;            
+ maxPlayers = 1;           
+};
+
+
+// User interface
+#include "defines.hpp"
+#include "scripts\HUD_info\HUD_info.hpp"
+#include "settings\environment_settings.hpp" 
+#include "settings\game_settings.hpp"
+#include "settings\base_type.hpp"
+#include "base_management\LOGPAC_Request.hpp"
+#include "base_management\Soldier_Request.hpp"
+#include "base_management\Squad_Manager.hpp"
+#include "base_management\Construction_Dialog.hpp"
+
+// Notifications
+#include "notifications\notifications.hpp"
+
+// Editing tools
+#include "scripts\LxOPS\lxOPS_dlg.hpp"      // Object positioning tool for editing

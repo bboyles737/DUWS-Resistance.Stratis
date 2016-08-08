@@ -1,0 +1,397 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"a3_map_stratis",
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"A3_Soft_F_Car",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Armor_F_Panther",
+		"A3_Armor_F_EPC_MBT_01",
+		"A3_armor_f_beta_APC_Tracked_02",
+		"A3_Armor_F_APC_Wheeled_03",
+		"A3_Armor_F_EPB_MBT_03",
+		"A3_Armor_F_T100K",
+		"A3_Armor_F_Marid",
+		"A3_Armor_F_Slammer",
+		"A3_Modules_F",
+		"A3_Data_F_Curator_Intel",
+		"A3_Weapons_F_Bootcamp_Ammoboxes",
+		"A3_Weapons_F_Ammoboxes"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"A3_Modules_F",
+		"A3_Soft_F_Car",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Armor_F_Panther",
+		"A3_Armor_F_EPC_MBT_01",
+		"A3_armor_f_beta_APC_Tracked_02",
+		"A3_Armor_F_APC_Wheeled_03",
+		"A3_Armor_F_EPB_MBT_03",
+		"A3_Armor_F_T100K",
+		"A3_Armor_F_Marid",
+		"A3_Armor_F_Slammer",
+		"A3_Data_F_Curator_Intel",
+		"A3_Weapons_F_Bootcamp_Ammoboxes",
+		"A3_Weapons_F_Ammoboxes",
+		"a3_map_stratis"
+	};
+	randomSeed=846508;
+	class Intel
+	{
+		briefingName="DUWS-Resistance v0.23";
+		overviewText="Dynamic campaign to clear an island.";
+		resistanceWest=0;
+		resistanceEast=1;
+		startWeather=0.099999994;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.099999994;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2035;
+		month=7;
+		day=18;
+		hour=6;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1887.9354,5.6900001,5760.1812};
+					azimut=101.699;
+					id=0;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1436.3591,-29.686409,5534.4575};
+					id=1;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="gamelogic1";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=22;
+		class Item0
+		{
+			position[]={1880.0148,5.5898323,5739.9678};
+			id=2;
+			side="EMPTY";
+			vehicle="C_Hatchback_01_sport_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={1828.9235,5.5,5757.79};
+			id=3;
+			side="EMPTY";
+			vehicle="B_Heli_Light_01_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={3452.3994,85.402733,5393.1064};
+			id=4;
+			side="EMPTY";
+			vehicle="B_APC_Tracked_01_rcws_F";
+			skill=0.60000002;
+			text="PantherTank";
+		};
+		class Item3
+		{
+			position[]={3467.4121,84.9235,5390.8315};
+			id=5;
+			side="EMPTY";
+			vehicle="B_APC_Tracked_01_AA_F";
+			skill=0.60000002;
+			text="CheetahTank";
+		};
+		class Item4
+		{
+			position[]={3407.2102,87.696365,5398.8687};
+			id=6;
+			side="EMPTY";
+			vehicle="B_MBT_01_TUSK_F";
+			skill=0.60000002;
+			text="SlammerTank";
+		};
+		class Item5
+		{
+			position[]={3418.7349,87.053825,5390.5283};
+			id=7;
+			side="EMPTY";
+			vehicle="O_APC_Tracked_02_cannon_F";
+			skill=0.60000002;
+			text="BTRAFV";
+		};
+		class Item6
+		{
+			position[]={3392.9558,86.149689,5401.1436};
+			id=8;
+			side="EMPTY";
+			vehicle="I_APC_Wheeled_03_cannon_F";
+			skill=0.60000002;
+			text="GorgonAFV";
+		};
+		class Item7
+		{
+			position[]={3382.189,85.358101,5413.4258};
+			id=9;
+			side="EMPTY";
+			vehicle="I_MBT_03_cannon_F";
+			skill=0.60000002;
+			text="KumaTank";
+		};
+		class Item8
+		{
+			position[]={3494.1008,90.594215,5358.835};
+			id=10;
+			side="EMPTY";
+			vehicle="O_MBT_02_cannon_F";
+			skill=0.60000002;
+			text="T100Tank";
+		};
+		class Item9
+		{
+			position[]={3444.5024,85.583008,5380.6641};
+			id=11;
+			side="EMPTY";
+			vehicle="O_APC_Wheeled_02_rcws_F";
+			skill=0.60000002;
+		};
+		class Item10
+		{
+			position[]={3428.8826,86.14727,5385.0361};
+			id=12;
+			side="EMPTY";
+			vehicle="O_APC_Tracked_02_AA_F";
+			skill=0.60000002;
+		};
+		class Item11
+		{
+			position[]={3422.6611,34.256599,5878.833};
+			azimut=188.41444;
+			id=13;
+			side="EMPTY";
+			vehicle="O_MBT_02_cannon_F";
+			skill=0.60000002;
+		};
+		class Item12
+		{
+			position[]={3415.9839,34.154694,5880.7285};
+			azimut=195.43086;
+			id=14;
+			side="EMPTY";
+			vehicle="O_MBT_02_cannon_F";
+			skill=0.60000002;
+		};
+		class Item13
+		{
+			position[]={3404.2869,35.015854,5888.416};
+			azimut=-176.82576;
+			id=15;
+			side="EMPTY";
+			vehicle="B_MBT_01_TUSK_F";
+			skill=0.60000002;
+		};
+		class Item14
+		{
+			position[]={3396.1726,35.244255,5890.8911};
+			azimut=-177.73297;
+			id=16;
+			side="EMPTY";
+			vehicle="B_MBT_01_TUSK_F";
+			skill=0.60000002;
+		};
+		class Item15
+		{
+			position[]={3382.9521,34.955658,5893.4697};
+			azimut=-185.77391;
+			id=17;
+			side="EMPTY";
+			vehicle="I_MBT_03_cannon_F";
+			skill=0.60000002;
+		};
+		class Item16
+		{
+			position[]={3375.5012,34.726082,5893.7695};
+			azimut=190.04887;
+			id=18;
+			side="EMPTY";
+			vehicle="I_MBT_03_cannon_F";
+			skill=0.60000002;
+		};
+		class Item17
+		{
+			position[]={3442.1296,31.694582,5873.9961};
+			azimut=-178.20117;
+			id=19;
+			side="EMPTY";
+			vehicle="B_MBT_01_cannon_F";
+			skill=0.60000002;
+		};
+		class Item18
+		{
+			position[]={3450.6118,31.1145,5869.5625};
+			azimut=-175.06912;
+			id=20;
+			side="EMPTY";
+			vehicle="B_MBT_01_cannon_F";
+			skill=0.60000002;
+		};
+		class Item19
+		{
+			position[]={1878.4514,5.5070319,5720.3613};
+			id=21;
+			side="EMPTY";
+			vehicle="Intel_File1_F";
+			skill=0.60000002;
+		};
+		class Item20
+		{
+			position[]={1868.2822,5.6221166,5765.1729};
+			azimut=101.699;
+			id=22;
+			side="EMPTY";
+			vehicle="Box_FIA_Ammo_F";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item21
+		{
+			position[]={1869.6842,5.6111956,5755.7129};
+			azimut=101.699;
+			id=23;
+			side="EMPTY";
+			vehicle="Box_NATO_AmmoOrd_F";
+			leader=1;
+			skill=0.60000002;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=12106500;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=5415459;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=7169628;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};

@@ -1,0 +1,31 @@
+ROADMAP:
+
+1) Transport ammo containers manually
+	- Force walking
+	- No weapon?  Or use the drag/carry animations?
+	- Only works on smaller ammo containers (no crates or caches will do)
+2) FOB/PB Zones
+	- Use flagpole (set nationality in a config file)
+	- Creates a zone (small for PBs - 25m?  50 at most.  Larger for FOBs)
+	- WITHIN the zone, you may use the construct menu (or it will enable additional features)
+	- Create base functions (resting, LOGPAC, request additional soldiers/vehicles/support)
+3) Enemy HQ Spawns for zones
+	- Work through Stratis to begin with
+4) Ambiance spawns for FOBs, PBs, and Civilian structures
+5) Side mission generation
+6) Movement of objects with truck transports
+7) Helo taxi and marking LZs
+8) Arty support
+9) Ancillary patrols, checkpoints, etc.
+10) Army power representation, logistics, and requirements
+11) Intel, G-2, ORBAT
+
+???) Training of units
+???) Integrate the HC manager from DUWS
+???) Actually use a construction cost for building items
+???) Add object de-struction and recoupment cost
+???) Greater diversity to friendly unit spawns - namely, vests (heavy protection - for extra cost - regular, or light - for lower cost)
+???) Naming and tagging ammo containers
+	- Add action menu to read tags and set tags?
+	- Must prevent duplicates
+???) Constructing objects at the same height as you are?  (e.g. to create objects within buildings?)
